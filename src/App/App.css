@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+img.backgroundPhoto {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+div.overlay {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,25%);
+  color: rgba(255,255,255,100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.text {
+  width: 80%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+button {
+  border: 3px solid yellow;
+  background: none;
+  color: inherit;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+  transition: background 100ms, color 100ms;
+}
+
+button:hover {
+  background: yellow;
+  color: black;
+}
+
+#source {
+  width: 50%;
+  height: 2rem;
+  font-size: 1rem;
+  padding: 5px 15px;
+  border-radius: 3px;
+  border: none;
+}
